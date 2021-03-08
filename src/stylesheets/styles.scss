@@ -1,0 +1,254 @@
+@import "fonts.scss";
+
+// Font-Size
+$base-font-size: 1em;
+$base-header-size: 2em;
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+// media queries
+$bp-small: 768px; // 768px
+$bp-medium: 1024px; // 1024px
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+$mq-mobile: "(max-width: #{$bp-small})";
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-uwide: "(min-width: #{$bp-xxlarge}) and (max-height: 1080px)";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+
+%font-options {
+    font-size: $base-font-size;
+    
+    @media #{$mq-mobile} {
+        font-size: $base-font-size*0.9;
+    }    
+
+    @media #{$mq-medium} {
+        font-size: $base-font-size*1;
+    }
+
+    @media #{$mq-large} {
+        font-size: $base-font-size*1;
+    }
+
+    @media #{$mq-xlarge} {
+        font-size: $base-font-size*1
+    }
+
+    @media #{$mq-uwide} {
+        font-size: $base-font-size*1
+    }
+
+    @media #{$mq-xxlarge} {
+        font-size: $base-font-size*1
+    }
+}
+
+%admin-font-options {
+    font-size: $base-font-size;
+    
+    @media #{$mq-mobile} {
+        font-size: $base-font-size*0.8;
+    }    
+
+    @media #{$mq-medium} {
+        font-size: $base-font-size*1;
+    }
+
+    @media #{$mq-large} {
+        font-size: $base-font-size*1;
+    }
+
+    @media #{$mq-xlarge} {
+        font-size: $base-font-size*1
+    }
+
+    @media #{$mq-uwide} {
+        font-size: $base-font-size*1
+    }
+
+    @media #{$mq-xxlarge} {
+        font-size: $base-font-size*1
+    }
+}
+
+/* Brand Colours */
+$blue: #0B6BBF;
+$yellow: #F2B749;
+$pink: #FF6A93;
+$green: #69BD5E;
+$dark-blue: #031240;
+$red: #D93030;
+$grey: #F6F5F4;
+$dark-grey: #50514F;
+
+#white { background-color: white; }
+#blue { background-color: $blue}
+#yellow { background-color: $yellow}
+#pink {background-color:  $pink}
+#green {background-color: $green}
+#dark-blue {background-color: $dark-blue}
+#red { background-color: $red}
+#grey { background-color:  $grey}
+#dark-grey {background-color: $dark-grey}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins-Regular';
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a, a:visited {
+    font-family: 'CodeDemo-Bold';
+    color: white;
+    text-decoration: white;
+    letter-spacing: 1px;
+    padding: 0 10px;
+}
+
+body {
+    // display: flex;
+    // flex-direction: column;
+    @extend %font-options;
+    overflow: auto;
+}
+
+body {
+    background-color: #F2B749;
+    // background-color: white;
+}
+
+button {
+    // min-width: 65px;
+    padding: 5px;
+    // -webkit-appearence: none;
+    -webkit-border-radius: none;
+    border-radius: 1px;
+    border: 1px solid grey;
+    background-color: #e7e7e7;
+
+    @extend %font-options
+}
+
+footer {
+    background-color: #2E2F2F;
+    // height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    // @extend %font-options;
+
+    @media #{$mq-small} {
+        flex-direction: row;
+        height: 150px;
+    }
+}
+
+h1 {
+    font-family: 'CodeDemo-bold';
+    letter-spacing: 1px;
+    margin: 20px;
+    
+
+    font-size: $base-header-size;
+
+    // @media #{mq-medium} {
+    //     font-size: $base-header-size*2;
+    // }
+}
+
+h2 {
+    font-family: 'CodeDemo-bold';
+    letter-spacing: 1px; 
+    
+
+    font-size: $base-header-size * 0.8;
+}
+
+h3 {
+    font-family: 'CodeDemo-bold';
+    letter-spacing: 1px; 
+
+    font-size: $base-header-size * 0.6;
+}
+
+img {
+
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+// input {
+    // padding: 5px;
+    // border-radius: 0;
+    // -webkit-appearance: none;
+
+    // // width: 100%;
+    // border: 1px solid grey;
+    // border-radius: 5px;
+// }
+
+// p {
+    // font-family: "OpenSans-Regular";
+    // margin: 20px;
+
+    // font-size: $base-font-size * 1.2;
+
+    // @extend %font-options;
+// }
+
+select {
+    margin: 6px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+table {
+    padding: 10px;
+    width: 100%;
+    max-width: 1366px;
+
+    @extend %admin-font-options;  
+}
+
+// .table-buttons {
+//     min-width: 150px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
