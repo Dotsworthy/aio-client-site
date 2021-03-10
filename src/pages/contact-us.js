@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import emailjs from "emailjs-com";
+import { StaticImage } from "gatsby-plugin-image";
 
 const ContactUs = () => {
 
@@ -41,7 +42,7 @@ const ContactUs = () => {
                 <div className="paragraph-box box1" id="white">
                     <p>Contact us to learn more about our mission and work, or get involved yourself.</p>
                     <p>enquiries@allinoneeducation.co.uk</p>
-                    <img src={require("../images/42401748_m.jpg")} alt="contact-us"></img>
+                    <StaticImage src="../images/42401748_m.jpg" alt="contact-us"/>
 
 
 

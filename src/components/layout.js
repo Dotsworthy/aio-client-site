@@ -15,6 +15,7 @@ import { Link } from "gatsby"
 import "./stylesheets/styles.scss"
 import "./stylesheets/navbar.scss"
 import "./stylesheets/frontend.scss"
+import { StaticImage } from "gatsby-plugin-image"
 
 
 const Layout = ({ children }) => {
@@ -52,8 +53,8 @@ const Layout = ({ children }) => {
           </div>
 
           <div className="logo-container">
-            <img className="logo" src={require("../images/OSCR.jpg")} alt="OSCR"></img>
-            <img className="logo" src={require("../images/SVCO.png")} alt="SVCO"></img>
+            <StaticImage ClassName="logo" src="../images/OSCR.jpg" alt="OSCR"/>
+            <StaticImage ClassName="logo" src="../images/SVCO.png" alt="SVCO"/>
 
           </div>
 

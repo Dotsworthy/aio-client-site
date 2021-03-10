@@ -1,14 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
-// import Image from "../components/image"
-// import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 
-const IndexPage = () => (
-  <Layout siteType={"client"}>
+const IndexPage = () => {
+
+
+
+  return (
+  <Layout>
     {/* <SEO title="Home" /> */}
-    <div className="banner-container" id="index">
-      {/* <img src={require("../images/42271167_m.jpg")}/> */}
+    <div className="banner-container">
+      <StaticImage src="../images/42271167_m.jpg"/>
     </div>
 
     <section className="content-box" id="yellow">
@@ -29,11 +31,12 @@ const IndexPage = () => (
 
     </section>
 
+
     <section className="content-box" id="white">
       <h1>WHAT WE DO</h1>
 
       <div className="content-overlay-box">
-        <img src={require("../images/42401748_m.jpg")} alt="enhance-learning"></img>
+        <StaticImage src="../images/42401748_m.jpg" alt="enhance-learning" />
         <div className="paragraph-box paragraph-right" id="pink">
           <h1>ENHANCE LEARNING, FOR LIFE IN MODERN BRITAIN</h1>
           <p>By enabling our nations’ educators to teach the intersectional realities of British History through engaging, representative, and accessible materials, we help equip young learners to acknowledge and address multiple perspectives across education and society as a whole, creating exceptional critical thinkers and future global leaders.</p>
@@ -41,7 +44,7 @@ const IndexPage = () => (
       </div>
 
       <div className="content-overlay-box">
-        <img className="img-right" src="../images/96254573_m.jpg" alt="provide resources"></img>
+        <StaticImage className="img-right" src="../images/96254573_m.jpg" alt="provide resources"/>
         <div className="paragraph-box paragraph-left" id="green">
           <h1>PROVIDE EASY TO USE RESOURCES, FROM GRASSROOTS SOURCES</h1>
           <p>The All in One resource gateway contains outstanding History lesson materials designed to correspond to and integrate seamlessly into the existing curriculum and examination requirements for every UK nation. All resource materials are made in partnership with existing expert organisations, academics, and UK teachers working currently.</p>
@@ -50,7 +53,7 @@ const IndexPage = () => (
       </div>
 
       <div className="content-overlay-box">
-        <img src={require("../images/127784687_m.jpg")} alt="support-change"></img>
+        <StaticImage src={"../images/127784687_m.jpg"} alt="support-change"/>
         <div className="paragraph-box paragraph-right" id="yellow">
           <h1>SUPPORT LASTING CHANGE </h1>
           <p>Our approach to educaton reform is two-pronged, encompassing both content creation, and reform lobbying of UK governments to include All In One as a recommended teaching aid for university and college PGCE/PDGE courses, so that a greater consistency in inclusive teaching methods can be achieved across schools/educators.</p>
@@ -66,6 +69,7 @@ const IndexPage = () => (
 
     </section>
   </Layout>
-)
+  )
+}
 
 export default IndexPage

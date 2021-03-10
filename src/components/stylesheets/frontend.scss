@@ -74,10 +74,10 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2vw;
+    // flex-direction: column;
+    // justify-content: space-around;
+    // align-items: center;
+    // padding: 2vw;
 
     @media (max-width: 768px) {
         height: 50vh;
@@ -808,19 +808,20 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 }
 
 .employee-blurb {
-    visibility: hidden;
-    transition: opacity 1s;
-    opacity: 0;
+    display: none;
+    // visibility: hidden;
+    // transition: opacity 1s;
+    // opacity: 0;
     margin: 10px;
 }
 
 .employee-picture {
-    visibility: visible;
-    transition: opacity 1s;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    max-height: 400px;
+    // visibility: visible;
+    // transition: opacity 1s;
+    // height: 100%;
+    // width: 100%;
+    // opacity: 1;
+    // max-height: 400px;
     margin: 10px;
 
 }

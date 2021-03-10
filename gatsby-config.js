@@ -4,5 +4,8 @@ module.exports = {
     description: `Welcome to All in One Education.`,
     author: `All in One Education`,
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: ["gatsby-plugin-sass",
+  "gatsby-plugin-image",
+  "gatsby-plugin-sharp"
+  ],
 };
