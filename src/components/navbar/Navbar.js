@@ -18,38 +18,38 @@ const Navbar = () => {
 
   useEffect(() => {
     document.body.style.overflow = "auto"
-  },[])
+  }, [])
 
   return (
     <nav className="navigation" id="blue">
       <Link className="home-link" to="/">
-        <img className="image-link" src={aioLogo} alt="aio-logo"/>
-        <h3>all in one</h3>
-        
-        
-        </Link>
-      <button className="navbox-toggle" id="toggle" onClick={() => triggerNavbar()}>
-        {navbarOpen ? 
-        <div className="burger-menu-container"id="burger-open">
-          <div className="slice1" id="slice1"/>
-          <div className="slice2" id="slice2"/>
-          <div className="slice3" id="slice3"/>
-        </div> 
-        : 
-        <div className="burger-menu-container" id="burger-closed">
-          <div className="slice1"/>
-          <div className="slice2"/>
-          <div className="slice3"/>
-        </div>
-        }
+        <img className="image-link" src={aioLogo} alt="aio-logo" />
+        <span className="title-link">ALL IN ONE EDUCATION</span>
+      </Link>
+
+      <button className="navbox-toggle" name="open navigation menu" id="toggle" onClick={() => triggerNavbar()}>
+        {navbarOpen ?
+          <div className="burger-menu-container" id="burger-open">
+            <div className="slice1" id="slice1" />
+            <div className="slice2" id="slice2" />
+            <div className="slice3" id="slice3" />
+          </div>
+          :
+          <div className="burger-menu-container" id="burger-closed">
+            <div className="slice1" />
+            <div className="slice2" />
+            <div className="slice3" />
+          </div>
+          }
+          <span className="hidden-name">Open Navigation Menu</span>
       </button>
-      {navbarOpen ? 
+      {navbarOpen ?
         <div className="navbox" id="navbox-open">
-          <NavbarLinks setNavbarOpen={setNavbarOpen}/>
+          <NavbarLinks setNavbarOpen={setNavbarOpen} />
         </div>
-       : 
+        :
         <div className="navbox" id="navbox-closed">
-          <NavbarLinks setNavbarOpen={setNavbarOpen}/>
+          <NavbarLinks setNavbarOpen={setNavbarOpen} />
         </div>
       }
     </nav>

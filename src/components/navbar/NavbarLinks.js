@@ -16,16 +16,19 @@ const NavbarLinks = () => {
           {/* <Link className="navbar-link" id="admin-login" to="/admin/">Admin Login</Link> */}
 
       <div className="icons-navlinks">
-        <a className="icon-link" href="https://www.facebook.com/allinoneeducationuk">
+        <a className="icon-link" href="https://www.facebook.com/allinoneeducationuk" name="facebook-link">
           <FontAwesomeIcon icon={faFacebook} />
+          <span className="hidden-name">Facebook</span>
         </a>
             
-        <a className="icon-link" href="https://twitter.com/aioeducation?lang=en">
+        <a className="icon-link" href="https://twitter.com/aioeducation?lang=en" name="twitter-link">
           <FontAwesomeIcon icon={faTwitter} />
+          <span className="hidden-name">Twitter</span>
         </a>
 
-        <a className="icon-link"  href="https://www.instagram.com/allinoneeducationuk/">
+        <a className="icon-link"  href="https://www.instagram.com/allinoneeducationuk/" name="instagram-link">
           <FontAwesomeIcon icon={faInstagram} />
+          <span className="hidden-name">Instagram</span>
         </a>
       </div>
     </>

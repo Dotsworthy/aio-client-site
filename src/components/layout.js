@@ -38,16 +38,19 @@ const Layout = ({ children }) => {
           <Link className="logo" to="/">All in One Education</Link>
 
           <div className="icons">
-            <a className="icon-link" href="https://www.facebook.com/allinoneeducationuk">
+            <a className="icon-link" href="https://www.facebook.com/allinoneeducationuk" name="facebook-link">
               <FontAwesomeIcon icon={faFacebook} size="1x" />
+              <span className="hidden-name">Facebook</span>
             </a>
 
-            <a className="icon-link" href="https://twitter.com/aioeducation?lang=en">
+            <a className="icon-link" href="https://twitter.com/aioeducation?lang=en" name="twitter-link">
               <FontAwesomeIcon icon={faTwitter} size="1x" />
+              <span className="hidden-name">Twitter</span>
             </a>
 
-            <a className="icon-link" href="https://www.instagram.com/allinoneeducationuk/">
+            <a className="icon-link" href="https://www.instagram.com/allinoneeducationuk/" name="instagram-link">
               <FontAwesomeIcon icon={faInstagram} size="1x" />
+              <span className="hidden-name">Instagram</span>
             </a>
 
           </div>
