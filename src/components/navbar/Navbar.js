@@ -23,8 +23,8 @@ const Navbar = () => {
   return (
     <nav className="navigation" id="blue">
       <Link className="home-link" to="/">
-        <img className="image-link" src={aioLogo} alt="aio-logo"></img>
-        All In One
+        <img className="image-link" src={aioLogo} alt="aio-logo"/>
+        <h3>all in one</h3>
         
         
         </Link>
