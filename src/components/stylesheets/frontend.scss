@@ -1,11 +1,12 @@
 // media queries
+$bp-mobile: 767px;
 $bp-small: 768px; // 768px
 $bp-medium: 1024px; // 1024px
 $bp-large: 85.375em; // 1366px
 $bp-xlarge: 120em; // 1920px
 $bp-xxlarge: 160em; // 2560px
 
-$mq-mobile: "(max-width: #{$bp-small})";
+$mq-mobile: "(max-width: #{$bp-mobile})";
 $mq-small: "(min-width: #{$bp-small})";
 $mq-medium: "(min-width: #{$bp-medium})";
 $mq-large: "(min-width: #{$bp-large})";
@@ -277,11 +278,11 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
 
 .content-box {
+    min-height: 100vh;
     padding: 3vw;
     display: flex;
     flex-direction: column;
     align-items : center;
-    justify-content: center;
 }
 
 .content-box-variable {
@@ -315,12 +316,17 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
 .content-overlay-box {
     display: flex;
-    margin: 8vh 0;
+    align-items: flex-start;
+    margin: 64px 0px;
+
+    @media #{$mq-mobile} {
+        margin:  48px 0px;
+    }
     
     img {
-        object-fit: cover;
-        width: 80%;
-        height: auto;
+        // object-fit: cover;
+        // width: 80%;
+        // height: auto;
     }
 
     .img-right {
@@ -330,23 +336,21 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
     .paragraph-box {
         z-index: 1;
-        margin: 6vh;
-        height: 80%;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
-        align-items: stretch;
+        padding: 20px;
+        max-width: 600px;
     }
 
     
 
     .paragraph-left {
-        margin-right: -350px;
+        margin-right: -300px;
         order: 1;
     }
 
     .paragraph-right {
-        margin-left: -350px;
+        margin-left: -300px;
     }
 
     @media #{$mq-mobile} {
@@ -425,12 +429,13 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
 .link-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 40px 0px;
 }
 
 .link-box {
-    margin: 5em 0;
-    // padding: 2vw 3.22vw;
     background-color: #0B6BBF;
     min-width: 15vw;
     height: 10vh;
@@ -441,6 +446,7 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     @media #{$mq-mobile} {
         width: 50vw;
         height: 15vh;
+        font-size: 1.5em;
     }
 }
 

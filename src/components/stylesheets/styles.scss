@@ -7,13 +7,14 @@ $base-line-height: 1.5;
 $header-line-height: 1.25;
 
 // media queries
+$bp-mobile: 539px; 
 $bp-small: 768px; // 768px
 $bp-medium: 1024px; // 1024px
 $bp-large: 85.375em; // 1366px
 $bp-xlarge: 120em; // 1920px
 $bp-xxlarge: 160em; // 2560px
 
-$mq-mobile: "(max-width: #{$bp-small})";
+$mq-mobile: "(max-width: #{$bp-mobile})";
 $mq-small: "(min-width: #{$bp-small})";
 $mq-medium: "(min-width: #{$bp-medium})";
 $mq-large: "(min-width: #{$bp-large})";
@@ -189,6 +190,10 @@ img {
     height: auto;
     width: 100%;
     object-fit: cover;
+}
+
+p {
+    margin: 20px;
 }
 
 // input {

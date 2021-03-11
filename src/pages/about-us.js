@@ -86,7 +86,7 @@ const AboutUs = () => {
             <div className="content-box" id="blue">
                 <h1>MEET US:</h1>
                 <div className="content-box-horizontal">
-                    <div className="profile-box" id="white"
+                    <div role="button" className="profile-box" id="white" tabIndex="0"
                         onMouseEnter={() => triggerProfile("img-1", "employee-1")} 
                         onMouseLeave={() => triggerProfile("img-1", "employee-1")}
                     >
@@ -98,7 +98,7 @@ const AboutUs = () => {
                         <p>To contact please email enquiries@allinoneeducation.co.uk</p>
                         </div>
                     </div>
-                    <div className="profile-box" id="white"
+                    <div role="button" className="profile-box" id="white" tabIndex="0"
                         onMouseEnter={() => triggerProfile("img-2", "employee-2")} 
                         onMouseLeave={() => triggerProfile("img-2", "employee-2")}
                     >
@@ -112,7 +112,7 @@ const AboutUs = () => {
                         </div>
                         </div>
                     
-                    <div className="profile-box" id="white"
+                    <div role="button" className="profile-box" id="white" tabIndex="0"
                         onMouseEnter={() => triggerProfile("img-3", "employee-3")} 
                         onMouseLeave={() => triggerProfile("img-3", "employee-3")}
                     >
@@ -121,7 +121,7 @@ const AboutUs = () => {
                         <p className="employee-blurb" id="employee-3">Gina is an employee of AIO</p>                    
                     </div>
 
-                    <div className="profile-box" id="white"
+                    <div role="button" className="profile-box" id="white" tabIndex="0"
                         onMouseEnter={() => triggerProfile("img-4", "employee-4")} 
                         onMouseLeave={() => triggerProfile("img-4", "employee-4")}
                     >
@@ -134,7 +134,7 @@ const AboutUs = () => {
                         </div>
                     </div>
 
-                    <div className="profile-box" id="white"
+                    <div role="button" className="profile-box" id="white" tabIndex="0"
                         onMouseEnter={() => triggerProfile("img-5", "employee-5")} 
                         onMouseLeave={() => triggerProfile("img-5", "employee-5")}
                     >
@@ -147,7 +147,7 @@ const AboutUs = () => {
                         </div>
                     </div>
 
-                    <div className="profile-box" id="white"
+                    <div role="button" className="profile-box" id="white" tabIndex="0"
                         onMouseEnter={() => triggerProfile("img-6", "employee-6")} 
                         onMouseLeave={() => triggerProfile("img-6", "employee-6")}
                     >
@@ -160,7 +160,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     
-                    <div className="profile-box" id="white"
+                    <div role="button" className="profile-box" id="white" tabIndex="0"
                         onMouseEnter={() => triggerProfile("img-7", "employee-7")} 
                         onMouseLeave={() => triggerProfile("img-7", "employee-7")}
                     >

@@ -56,8 +56,8 @@ const Layout = ({ children }) => {
           </div>
 
           <div className="logo-container">
-            <StaticImage ClassName="logo" src="../images/OSCR.jpg" alt="OSCR"/>
-            <StaticImage ClassName="logo" src="../images/SVCO.png" alt="SVCO"/>
+            <StaticImage className="logo" src="../images/OSCR.jpg" alt="OSCR"/>
+            <StaticImage className="logo" src="../images/SVCO.png" alt="SVCO"/>
 
           </div>
 

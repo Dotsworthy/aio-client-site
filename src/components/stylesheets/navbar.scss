@@ -1,11 +1,12 @@
 // media queries
+$bp-mobile: 767px;
 $bp-small: 768px; // 768px
 $bp-medium: 1024px; // 1024px
 $bp-large: 85.375em; // 1366px
 $bp-xlarge: 120em; // 1920px
 $bp-xxlarge: 160em; // 2560px
 
-$mq-mobile: "(max-width: #{$bp-small})";
+$mq-mobile: "(max-width: #{$bp-mobile})";
 $mq-small: "(min-width: #{$bp-small})";
 $mq-medium: "(min-width: #{$bp-medium})";
 $mq-large: "(min-width: #{$bp-large})";
@@ -25,7 +26,7 @@ nav {
     padding: 0 1rem;
     z-index: 2;
 
-    @media (max-width: 767px) {
+    @media #{$mq-mobile} {
         position: sticky;
         flex-direction: row;
         justify-content: space-between;
@@ -53,7 +54,7 @@ nav {
     // height: 100%;
     align-items: center;
   
-    @media (max-width: 767px) {
+    @media #{$mq-mobile} {
       flex-direction: column;
       justify-content: space-evenly;
       position: fixed;
@@ -119,7 +120,7 @@ nav {
     outline: none;
     border: none;
 
-    @media (max-width: 767px) {
+    @media #{$mq-mobile} {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +134,7 @@ nav {
     justify-content: center;
     font-size: 3rem;
 
-    @media (max-width: 767px) {
+    @media #{$mq-mobile} {
         font-size: 1.5rem;
         max-height: calc(100px - 50%);
     }
@@ -150,7 +151,7 @@ nav {
     max-height: 100%;
     width: auto;
     
-    @media (max-width: 767px) {
+    @media #{$mq-mobile} {
         
         height: 50px;
     }
@@ -162,7 +163,7 @@ nav {
 
 .navbar-link {
 
-    @media (max-width: 767px) {
+    @media #{$mq-mobile} {
         font-size: 1.5rem;
         z-index: 6;
     }
