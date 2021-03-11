@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className="navigation" id="blue">
       <Link className="home-link" to="/">
         <img className="image-link" src={aioLogo} alt="aio-logo" />
-        <span className="title-link">ALL IN ONE EDUCATION</span>
+        <span className="title-link">All in One Education</span>
       </Link>
 
       <button className="navbox-toggle" name="open navigation menu" id="toggle" onClick={() => triggerNavbar()}>

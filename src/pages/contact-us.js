@@ -33,7 +33,7 @@ const ContactUs = () => {
         <Layout siteType={"client"}>
             <div className="banner-container-2" id="pink">
                 <div className="paragraph-box" id="white">
-                    <h1>CONTACT US</h1>
+                    <h1>Contact us</h1>
                 </div>
             </div>
 

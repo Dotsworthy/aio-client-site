@@ -312,6 +312,10 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+    .paragraph-small {
+        align-self: flex-start;
+    }
 }
 
 .content-overlay-box {
@@ -442,6 +446,7 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     @media #{$mq-mobile} {
         width: 50vw;

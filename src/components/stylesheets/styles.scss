@@ -51,34 +51,6 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     }
 }
 
-%admin-font-options {
-    font-size: $base-font-size;
-    
-    @media #{$mq-mobile} {
-        font-size: $base-font-size*0.8;
-    }    
-
-    @media #{$mq-medium} {
-        font-size: $base-font-size*1;
-    }
-
-    @media #{$mq-large} {
-        font-size: $base-font-size*1;
-    }
-
-    @media #{$mq-xlarge} {
-        font-size: $base-font-size*1
-    }
-
-    @media #{$mq-uwide} {
-        font-size: $base-font-size*1
-    }
-
-    @media #{$mq-xxlarge} {
-        font-size: $base-font-size*1
-    }
-}
-
 /* Brand Colours */
 $blue: #0B6BBF;
 $yellow: #F2B749;
@@ -149,7 +121,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    // @extend %font-options;
+    @extend %font-options;
 
     @media #{$mq-small} {
         flex-direction: row;
@@ -159,7 +131,6 @@ footer {
 
 h1 {
     font-family: 'CodeDemo-bold';
-    letter-spacing: 1px;
     margin: 20px;
     
 
@@ -172,7 +143,7 @@ h1 {
 
 h2 {
     font-family: 'CodeDemo-bold';
-    letter-spacing: 1px; 
+    // letter-spacing: 1px; 
     
 
     font-size: $base-header-size * 0.8;
@@ -180,7 +151,7 @@ h2 {
 
 h3 {
     font-family: 'CodeDemo-bold';
-    letter-spacing: 1px; 
+    // letter-spacing: 1px; 
 
     font-size: $base-header-size * 0.6;
 }
@@ -221,18 +192,6 @@ select {
     border-radius: 5px;
     width: 100%;
 }
-
-table {
-    padding: 10px;
-    width: 100%;
-    max-width: 1366px;
-
-    @extend %admin-font-options;  
-}
-
-// .table-buttons {
-//     min-width: 150px;
-// }
 
 
 
