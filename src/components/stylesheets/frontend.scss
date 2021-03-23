@@ -302,6 +302,17 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     height: 100%;
     padding: 3vw 3vw;
 
+    .box1 {
+        padding: 20px;
+    }
+    
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        // margin: 20px;
+    }
+
     @media #{$mq-mobile} {
         align-items: stretch;
     }
@@ -311,6 +322,14 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
         .box1 {
             flex-grow: 1;
+            padding: 20px;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: auto;
+                // margin: 20px;
+            }
         }
 
         .box2 {
