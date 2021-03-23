@@ -64,8 +64,11 @@ const AboutUs = () => {
     return (
         <Layout siteType={"client"}>
             {/* <SEO title="About Us" /> */}
-            <div className="banner-container">
-                <StaticImage src="../images/79574096_m.jpg" />
+            <div className="banner-container" id="about-us">
+                {/* <StaticImage src="../images/79574096_m.jpg" /> */}
+                <div className="paragraph-box" id="white">
+                    <h1>About Us</h1>
+                </div>
             </div>
 
             <div className="content-box" id="pink">
@@ -73,7 +76,7 @@ const AboutUs = () => {
                 <div className="content-box-horizontal">
 
                     <div className="paragraph-box-horizontal" id="white">
-                        <StaticImage src="../images/38079971_m.jpg" alt="inclusive" />
+                        <StaticImage src="../images/iStock-653000086.jpg" alt="inclusive" />
                         <h1>Inclusive</h1>
                         <p>We believe that every child should be able to see themselves in their school books, and that every classroom experience should empower them to explore and engage meaningfully with the world they live in. We want to make the UK’s curriculums world-leading by enabling inclusive, intersectional history to be taught easily and effectively, greatly benefiting every young learners’ academic and social development.</p>
                     </div>
@@ -97,7 +100,7 @@ const AboutUs = () => {
                     </div>
 
                     <div className="paragraph-box-horizontal" id="white">
-                        <StaticImage src="../images/115668764_m.jpg" alt="advocates" />
+                        <StaticImage src="../images/38079971_m.jpg" alt="advocates" />
                         <h1>Advocates</h1>
                         <p>We recognise that education is vital for building exceptional global citizens and for alleviating social injustice. Our Campaigns team raises awareness of the important work of our partner organisations through events and marketing, and lobbies UK governments and educational institutions to include All in One as a recommended teaching aid in university and college PGCE/PDGE course syllabuses.</p>
                     </div>

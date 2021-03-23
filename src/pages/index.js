@@ -7,8 +7,8 @@ const IndexPage = () => {
   return (
     <Layout>
       {/* <SEO title="Home" /> */}
-      <div className="banner-container">
-        <StaticImage src="../images/42271167_m.jpg" alt="All in One Education Banner" />
+      <div className="banner-container" id="index">
+        {/* <StaticImage src="../images/42271167_m.jpg" alt="All in One Education Banner" /> */}
       </div>
 
       <section className="content-box" id="yellow">
@@ -42,7 +42,7 @@ const IndexPage = () => {
 
         <div className="content-overlay-box">
           <StaticImage className="img-right" src="../images/96254573_m.jpg" alt="provide resources" />
-          <div className="paragraph-box paragraph-left" id="green">
+          <div className="paragraph-box paragraph-left" id="blue">
             <h1>Provide easy to use resources, from grassroots sources</h1>
             <p>The All in One resource gateway contains outstanding History lesson materials designed to correspond to and integrate seamlessly into the existing curriculum and examination requirements for every UK nation. All resource materials are made in partnership with existing expert organisations, academics, and UK teachers working currently.</p>
           </div>

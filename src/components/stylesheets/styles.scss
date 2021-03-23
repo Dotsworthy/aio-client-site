@@ -55,7 +55,7 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 $blue: #0B6BBF;
 $yellow: #F2B749;
 $pink: #FF6A93;
-$green: #69BD5E;
+
 $dark-blue: #031240;
 $red: #D93030;
 $grey: #F6F5F4;
@@ -65,7 +65,7 @@ $dark-grey: #50514F;
 #blue { background-color: $blue}
 #yellow { background-color: $yellow}
 #pink {background-color:  $pink}
-#green {background-color: $green}
+
 #dark-blue {background-color: $dark-blue}
 #red { background-color: $red}
 #grey { background-color:  $grey}
@@ -136,56 +136,22 @@ h1 {
     
 
     font-size: $base-header-size;
-
-    // @media #{mq-medium} {
-    //     font-size: $base-header-size*2;
-    // }
 }
 
 h2 {
     font-family: 'CodeDemo-bold';
-    // letter-spacing: 1px; 
-    
-
+    margin: 20px;
     font-size: $base-header-size * 0.8;
 }
 
 h3 {
     font-family: 'CodeDemo-bold';
-    // letter-spacing: 1px; 
-
     font-size: $base-header-size * 0.6;
 }
-
-// img {
-
-//     height: auto;
-//     width: 100%;
-//     object-fit: cover;
-// }
 
 p {
     margin: 20px;
 }
-
-// input {
-    // padding: 5px;
-    // border-radius: 0;
-    // -webkit-appearance: none;
-
-    // // width: 100%;
-    // border: 1px solid grey;
-    // border-radius: 5px;
-// }
-
-// p {
-    // font-family: "OpenSans-Regular";
-    // margin: 20px;
-
-    // font-size: $base-font-size * 1.2;
-
-    // @extend %font-options;
-// }
 
 select {
     margin: 6px 0px;

@@ -15,8 +15,9 @@ $mq-uwide: "(min-width: #{$bp-xxlarge}) and (max-height: 1080px)";
 $mq-xxlarge: "(min-width: #{$bp-xxlarge})";
 $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
-#index {background-image: url(../../images/42271167_m.jpg)}
+#index {background-image: url(../../images/iStock-1091721046.jpg)}
 #about-us {background-image: url(../../images/79574096_m.jpg)}
+#take-action {background-image: url(../../images/iStock-1092209486.jpg);}
 #confirm {display: none}
 #error {display: none}
 #mobile {
@@ -75,13 +76,13 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     background-size: cover;
     background-position: center;
     display: flex;
-    // flex-direction: column;
-    // justify-content: space-around;
-    // align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     // padding: 2vw;
 
     @media (max-width: 768px) {
-        height: 50vh;
+        height: calc(50vh - 100px);
     }
 
 }
@@ -283,7 +284,13 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     flex-direction: column;
     align-items : center;
 
+    @media #{$mq-small} {
+        padding: 20px;
+    }
 
+    @media #{$mq-mobile} {
+        padding: 20px 0px;
+    }
 }
 
 .content-box-variable {
@@ -294,6 +301,10 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     width: 100%;
     height: 100%;
     padding: 3vw 3vw;
+
+    @media #{$mq-mobile} {
+        align-items: stretch;
+    }
 
     @media #{$mq-medium} {
         flex-direction: row;
@@ -316,14 +327,6 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     .paragraph-small {
         align-self: flex-start;
     }
-
-    @media #{$mq-small} {
-        padding: 20px;
-    }
-
-    @media #{$mq-mobile} {
-        padding: 20px 0px;
-    }
 }
 
 .content-overlay-box {
@@ -334,12 +337,6 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     @media #{$mq-mobile} {
         margin:  48px 0px;
     }
-    
-    // img {
-        // object-fit: cover;
-        // width: 80%;
-        // height: auto;
-    // }
 
     .img-right {
         float: right;
@@ -386,13 +383,12 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
         }
 
         .paragraph-left {
-            margin-right: 0;
+            margin-right: 10px;
             order: 2;
         }
 
         .paragraph-right {
-            // margin-left: 0;
-            margin-right: 2px;
+            margin-right: 10px;
         }
         
     }
@@ -561,31 +557,6 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
         margin: 2vw;
     }
 
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        @media #{$mq-mobile} {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 2vh
-        }
-
-        input {
-            width: 50%;
-            border: 1px solid grey;
-            margin: 0px;
-            border-radius: 0;
-            margin: 2vh 0;
-
-        }
-
-    }
-
     button {
         font-family: 'CodeDemo-bold';
         font-size: inherit;
@@ -598,23 +569,50 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     // background-cover: cover;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2vh;
+
+    @media #{$mq-mobile} {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+
+    input {
+        border: 1px solid grey;
+        margin: 0px;
+        border-radius: 0;
+        margin: 2px;
+        padding: 10px;
+    }
+
+    textarea {
+        margin: 2px;
+        padding: 10px;
+        height: 200px;
+        width: 350px;
+        overflow-y: scroll;
+        resize: none;
+
+        @media #{$mq-mobile} {
+            width: 100%;
+        }
+    }
+
+}
+
 
 .paragraph-box {
     box-shadow: 10px 10px;
-    padding: 2vw;
+    // padding: 2vw;
     margin: 2vh 2vw;
 
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-
-    form {
-        // width: 75%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        min-width: 300px;        
-    }
 }
 
 // p {
