@@ -574,7 +574,7 @@ form {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 2vh;
+    padding: 20px;
 
     @media #{$mq-mobile} {
         display: flex;
@@ -605,6 +605,16 @@ form {
         }
     }
 
+    #button {
+        margin: 20px 0px;
+    }
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 

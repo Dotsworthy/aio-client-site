@@ -55,7 +55,9 @@ const ContactUs = () => {
                         <textarea type="text" name="message" placeholder="Message"/>
                         <div id="confirm"><p>Thanks! We will reply to your enquiry ASAP.</p></div>
                         <div id="error"><p>Oh No! It appears there was an error. Please try emailing us directly at enquiries@allinoneeducation.co.uk.</p></div>
+                        <div className="button-container">
                         <input type="submit" id="button" value="Send Email" />
+                        </div>
                     </form>
                 </div>
 
