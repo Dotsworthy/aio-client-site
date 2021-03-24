@@ -36,7 +36,7 @@ const IndexPage = () => {
         <h1>What we do</h1>
 
         <div className="content-overlay-box">
-          <StaticImage src="../images/42401748_m.jpg" alt="enhance-learning" />
+          <StaticImage className="img" src="../images/42401748_m.jpg" alt="enhance-learning" />
           <div className="paragraph-box paragraph-right" id="pink">
             <h1>Enhance learning, for life in modern Britain</h1>
             <p>By enabling our nations’ educators to teach the intersectional realities of British History through engaging, representative, and accessible materials, we help equip young learners to acknowledge and address multiple perspectives across education and society as a whole, creating exceptional critical thinkers and future global leaders.</p>
@@ -53,7 +53,7 @@ const IndexPage = () => {
         </div>
 
         <div className="content-overlay-box">
-          <StaticImage src={"../images/127784687_m.jpg"} alt="support-change" />
+          <StaticImage className="img" src={"../images/127784687_m.jpg"} alt="support-change" />
           <div className="paragraph-box paragraph-right" id="pink">
             <h1>Support lasting change</h1>
             <p>Our approach to educaton reform is two-pronged, encompassing both content creation, and reform lobbying of UK governments to include All In One as a recommended teaching aid for university and college PGCE/PDGE courses, so that a greater consistency in inclusive teaching methods can be achieved across schools/educators.</p>

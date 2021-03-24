@@ -372,7 +372,12 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
         margin:  48px 0px;
     }
 
+    .img {
+        max-width: 100%;
+    }
+
     .img-right {
+        max-width: 100%;
         float: right;
         order: 2;
     }
@@ -713,8 +718,8 @@ form {
     align-items: center;
 
     img {
-    width: 100%;
-    height: 100%;
+    // width: 100%;
+    // height: 100%;
     object-fit: cover;
     overflow: hidden;
     }
@@ -900,14 +905,21 @@ form {
 }
 
 .employee-picture {
-    visibility: visible;
     transition: opacity 1s;
     height: 100%;
     width: 100%;
     opacity: 1;
-    // max-height: 600px;
     margin: 10px;
+}
 
+.employee-picture-transparent {
+    transition: opacity 1s;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    margin: 10px;
+    zoom: 1;
+    filter: alpha(opacity=50)
 }
 
 .corner-button-container {

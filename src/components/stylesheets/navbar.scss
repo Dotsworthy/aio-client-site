@@ -129,10 +129,9 @@ nav {
     max-height: calc(125px - 50%);
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
+    // font-size: 3rem;
 
     @media #{$mq-mobile} {
-        font-size: 1.5rem;
         max-height: calc(100px - 50%);
     }
 }
@@ -145,7 +144,7 @@ nav {
 .image-link {
     
     @media #{$mq-mobile} {
-        font-size: 16px;
+        
         // height: 50px;
     }
 }
@@ -154,6 +153,11 @@ nav {
     font-family: 'CodeDemo-Bold';
     text-align: center;
     margin: 0 10px;
+    font-size: 3rem;
+
+    @media #{$mq-mobile} {
+        font-size: 1.5rem;
+    }
 }
 
 .navbar-link {

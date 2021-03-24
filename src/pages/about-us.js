@@ -20,11 +20,8 @@ const AboutUs = () => {
         const numOfEmployees = 7;
         let i = 1;
 
-        if (picture.style.visibility === "hidden") {
-            picture.style.opacity = "1";
-            picture.style.visibility = "visible";
-            picture.style.height = "100%";
-            picture.style.width = "100%";
+        if (picture.className === "employee-picture-transparent") {
+            picture.className = "employee-picture"
 
             paragraph.style.opacity = "0";
             paragraph.style.height = "0";
@@ -37,10 +34,11 @@ const AboutUs = () => {
                 console.log(picture);
                 console.log(paragraph);
 
-                picture.style.opacity = "1";
-                picture.style.visibility = "visible";
-                picture.style.height = "100%";
-                picture.style.width = "100%";
+                picture.className = "employee-picture"
+                // picture.style.opacity = "1";
+                // picture.style.visibility = "visible";
+                // picture.style.height = "100%";
+                // picture.style.width = "100%";
 
                 paragraph.style.opacity = "0";
                 paragraph.style.height = "0";
@@ -49,10 +47,11 @@ const AboutUs = () => {
                 i++
             }
 
-            picture.style.opacity = "0";
-            picture.style.visibility = "hidden";
-            picture.style.height = "0%";
-            picture.style.width = "0%";
+            picture.className = "employee-picture-transparent"
+            // picture.style.opacity = "0";
+            // picture.style.visibility = "hidden";
+            // picture.style.height = "0%";
+            // picture.style.width = "0%";
 
             paragraph.style.opacity = "1";
             paragraph.style.height = "100%";
