@@ -1,4 +1,5 @@
 import { StaticImage } from "gatsby-plugin-image";
+import SEO from "../components/seo";
 import React from "react";
 import Layout from "../components/layout";
 
@@ -7,6 +8,7 @@ const TakeAction = () => {
 
     return (
         <Layout siteType={"client"}>
+            <SEO title="Take Action" />
             <div className="banner-container">
             <StaticImage className="banner-image" src="../images/iStock-1092209486.jpg" />
                 <div className="banner-box" id="white"><h1>How can you get involved with All in One?</h1></div>

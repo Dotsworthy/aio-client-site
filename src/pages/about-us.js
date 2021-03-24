@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-// import SEO from "../components/seo";
+import SEO from "../components/seo";
 import downloadFile from "../images/All-In-One-Education-Our-Mission.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfo } from '@fortawesome/free-solid-svg-icons';
@@ -63,7 +63,7 @@ const AboutUs = () => {
 
     return (
         <Layout siteType={"client"}>
-            {/* <SEO title="About Us" /> */}
+            <SEO title="About Us" />
             <div className="banner-container">
                 <StaticImage className="banner-image" src="../images/79574096_m.jpg" />
                 <div className="banner-box" id="white">
@@ -131,7 +131,8 @@ const AboutUs = () => {
                         </div>
                         <div className="corner-button-container">
                         <div name="see bio" role="button" className="corner-button" tabIndex="0"
-                        onClick={() => triggerProfile("img-1", "employee-1")}
+                        onClick={() => triggerProfile("img-1", "employee-1")} 
+                        onKeyDown={() => triggerProfile("img-1", "employee-1")}
                         >
                         <FontAwesomeIcon className="more-info-icon" icon={faInfo} size="2x" />
                         </div>
@@ -148,7 +149,8 @@ const AboutUs = () => {
                         </div>
                         <div className="corner-button-container">
                         <div role="button" className="corner-button" tabIndex="0"
-                        onClick={() => triggerProfile("img-2", "employee-2")}
+                        onClick={() => triggerProfile("img-2", "employee-2")} 
+                        onKeyDown={() => triggerProfile("img-2", "employee-2")}
                         >
                         <FontAwesomeIcon className="more-info-icon" icon={faInfo} size="2x" />
                         </div>
@@ -165,7 +167,8 @@ const AboutUs = () => {
                         </div>
                         <div className="corner-button-container">
                         <div role="button" className="corner-button" tabIndex="0"
-                        onClick={() => triggerProfile("img-3", "employee-3")}
+                        onClick={() => triggerProfile("img-3", "employee-3")} 
+                        onKeyDown={() => triggerProfile("img-3", "employee-3")}
                         >
                         <FontAwesomeIcon className="more-info-icon" icon={faInfo} size="2x" />
                         </div>
@@ -182,7 +185,8 @@ const AboutUs = () => {
                         </div>
                         <div className="corner-button-container">
                         <div role="button" className="corner-button" tabIndex="0"
-                        onClick={() => triggerProfile("img-4", "employee-4")}
+                        onClick={() => triggerProfile("img-4", "employee-4")} 
+                        onKeyDown={() => triggerProfile("img-4", "employee-4")}
                         >
                         <FontAwesomeIcon className="more-info-icon" icon={faInfo} size="2x" />
                         </div>
@@ -199,7 +203,8 @@ const AboutUs = () => {
                         </div>
                         <div className="corner-button-container">
                         <div role="button" className="corner-button" tabIndex="0"
-                        onClick={() => triggerProfile("img-5", "employee-5")}
+                        onClick={() => triggerProfile("img-5", "employee-5")} 
+                        onKeyDown={() => triggerProfile("img-5", "employee-5")}
                         >
                         <FontAwesomeIcon className="more-info-icon" icon={faInfo} size="2x" />
                         </div>
@@ -216,7 +221,8 @@ const AboutUs = () => {
                         </div>
                         <div className="corner-button-container">
                         <div role="button" className="corner-button" tabIndex="0"
-                        onClick={() => triggerProfile("img-6", "employee-6")}
+                        onClick={() => triggerProfile("img-6", "employee-6")} 
+                        onKeyDown={() => triggerProfile("img-6", "employee-6")}
                         >
                         <FontAwesomeIcon className="more-info-icon" icon={faInfo} size="2x" />
                         </div>
@@ -234,7 +240,8 @@ const AboutUs = () => {
                         </div>
                         <div className="corner-button-container">
                         <div role="button" className="corner-button" tabIndex="0"
-                        onClick={() => triggerProfile("img-7", "employee-7")}
+                        onClick={() => triggerProfile("img-7", "employee-7")} 
+                        onKeyDown={() => triggerProfile("img-7", "employee-7")}
                         >
                         <FontAwesomeIcon className="more-info-icon" icon={faInfo} size="2x" />
                         </div>

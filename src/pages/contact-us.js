@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../components/layout";
 import emailjs from "emailjs-com";
+import SEO from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
-import contactUsImage from "./../images/42401748_m.jpg"
 
 const ContactUs = () => {
 
@@ -32,6 +32,7 @@ const ContactUs = () => {
 
     return (
         <Layout siteType={"client"}>
+            <SEO title="Contact Us"/>
             <div className="banner-container-2" id="yellow">
                 <div className="paragraph-box" id="white">
                     <h1>Contact us</h1>

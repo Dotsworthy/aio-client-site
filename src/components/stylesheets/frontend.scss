@@ -493,9 +493,17 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 }
 
 .logo {
+    min-height: 48px;
     max-height: 60px;
     width: auto;
     margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
 }
 
 .main {
