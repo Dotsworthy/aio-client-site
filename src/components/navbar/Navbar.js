@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import NavbarLinks from "./NavbarLinks"
 import { Link } from "gatsby"
-import aioLogoWhiteSmall from "../../images/aioLogoWhiteSmall.webp"
+import aioLogoWhiteSmall from "../../images/aioLogoWhiteSmall.png"
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)

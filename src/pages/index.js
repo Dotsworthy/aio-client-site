@@ -11,7 +11,7 @@ const IndexPage = () => {
       <div className="banner-container" 
       // id="index"
       >
-        <StaticImage className="banner-image" src="../images/iStock-1091721046.webp" alt="All in One Education Banner" />
+        <StaticImage className="banner-image" src="../images/iStock-1091721046.jpg" alt="All in One Education Banner" />
       </div>
 
       <section className="content-box" id="yellow">
