@@ -45,7 +45,7 @@ const IndexPage = () => {
 
         <div className="content-overlay-box">
           <StaticImage className="img-right" src="../images/96254573_m.jpg" alt="provide resources" />
-          <div className="paragraph-box paragraph-left" id="blue">
+          <div className="paragraph-box paragraph-left" id="yellow">
             <h1>Provide easy to use resources, from grassroots sources</h1>
             <p>The All in One resource gateway contains outstanding History lesson materials designed to correspond to and integrate seamlessly into the existing curriculum and examination requirements for every UK nation. All resource materials are made in partnership with existing expert organisations, academics, and UK teachers working currently.</p>
           </div>
@@ -54,12 +54,12 @@ const IndexPage = () => {
 
         <div className="content-overlay-box">
           <StaticImage src={"../images/127784687_m.jpg"} alt="support-change" />
-          <div className="paragraph-box paragraph-right" id="yellow">
+          <div className="paragraph-box paragraph-right" id="pink">
             <h1>Support lasting change</h1>
             <p>Our approach to educaton reform is two-pronged, encompassing both content creation, and reform lobbying of UK governments to include All In One as a recommended teaching aid for university and college PGCE/PDGE courses, so that a greater consistency in inclusive teaching methods can be achieved across schools/educators.</p>
             
             <div className="link-container">
-            <a className="link-box" href="/about-us">Learn More</a>
+            <a className="link-box" href="/about-us">Learn more about All in One</a>
             </div>
 
 
