@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import NavbarLinks from "./NavbarLinks"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import aioLogoWhiteSmall from "../../images/aioLogoWhiteSmall.webp"
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -23,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className="navigation" id="blue">
       <Link className="home-link" to="/">
-        <StaticImage className="image-link" src="../../images/aioLogoWhite.png" alt="aio-logo"/>
+        <img className="image-link" src={aioLogoWhiteSmall} alt="aio-logo"/>
         <span className="title-link">All in One Education</span>
       </Link>
 
