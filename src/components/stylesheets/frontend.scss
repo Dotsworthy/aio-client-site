@@ -937,8 +937,9 @@ form {
     border-left: 50px solid transparent;
     border-right: 50px solid #F2F3F4;
 
-    position: absolute;
+    position: relative;
     margin: -15px;
+    // vertical-align: top;
 }
 
 // .corner-button:focus {
