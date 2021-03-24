@@ -304,7 +304,7 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
     }
 
     @media #{$mq-mobile} {
-        padding: 20px 0px;
+        padding: 20px;
     }
 }
 
