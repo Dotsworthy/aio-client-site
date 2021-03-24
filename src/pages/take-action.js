@@ -7,8 +7,9 @@ const TakeAction = () => {
 
     return (
         <Layout siteType={"client"}>
-            <div className="banner-container" id="take-action">
-                <div className="paragraph-box" id="white"><h1>How can you get involved with All in One?</h1></div>
+            <div className="banner-container">
+            <StaticImage className="banner-image" src="../images/iStock-1092209486.jpg" />
+                <div className="banner-box" id="white"><h1>How can you get involved with All in One?</h1></div>
             </div>
 
             <div className="content-box" id="white">

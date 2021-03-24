@@ -64,9 +64,9 @@ const AboutUs = () => {
     return (
         <Layout siteType={"client"}>
             {/* <SEO title="About Us" /> */}
-            <div className="banner-container" id="about-us">
-                {/* <StaticImage src="../images/79574096_m.jpg" /> */}
-                <div className="paragraph-box" id="white">
+            <div className="banner-container">
+                <StaticImage className="banner-image" src="../images/79574096_m.jpg" />
+                <div className="banner-box" id="white">
                     <h1>About Us</h1>
                 </div>
             </div>

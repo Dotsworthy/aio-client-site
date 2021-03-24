@@ -43,11 +43,9 @@ const ContactUs = () => {
                 <div className="paragraph-box box1" id="white">
                     <p>Contact us to learn more about our mission and work, or get involved yourself.</p>
                     <p>enquiries@allinoneeducation.co.uk</p>
-                    <img src={contactUsImage} alt="contact-us"/>
-
-
-
+                    <StaticImage src="../images/42401748_m.jpg" alt="contact-us"/>
                 </div>
+
                 <div className="paragraph-box box2" id="white">
                     <form id="form" onSubmit={handleSubmit} className="contact-us-form">
                         <input type="text" name="first_name" placeholder="First Name" />
