@@ -55,14 +55,15 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 $blue: #0B6BBF;
 $yellow: #F2B749;
 $pink: #FF6A93;
-
 $dark-blue: #031240;
 $red: #D93030;
 $grey: #F6F5F4;
 $dark-grey: #50514F;
 
 #white { background-color: white; }
-#blue { background-color: $blue}
+#blue { background-color: $blue;
+        color: white;
+}
 #yellow { background-color: $yellow}
 #pink {background-color:  $pink}
 
