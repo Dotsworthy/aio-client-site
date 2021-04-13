@@ -5,21 +5,17 @@ import Layout from "../components/layout";
 
 const TakeAction = () => {
 
-
     return (
         <Layout siteType={"client"}>
             <SEO title="Take Action" />
             <div className="banner-container">
-            <StaticImage className="banner-image" src="../images/iStock-1092209486.jpg" />
+            <StaticImage className="banner-image" src="../images/iStock-1092209486.jpg" alt="How can you get involved?"/>
                 <div className="banner-box" id="white"><h1>How can you get involved with All in One?</h1></div>
             </div>
 
             <div className="content-box" id="white">
 
-                {/* <div className="paragraph-box" id="grey"> */}
                 <h2>Whether you’re a teacher or organisation with a great idea for a lesson, an educator who wants to trial our lessons in their classrooms, or a citizen wanting to see real change in the UK curriculum, here are some ways you can get involved with All in One:</h2>
-                {/* </div> */}
-
                 <div className="content-overlay-box">
                     <StaticImage src="../images/42402515_m.jpg" alt="Donate" />
                     <div className="paragraph-box paragraph-right" id="pink">
@@ -60,10 +56,6 @@ const TakeAction = () => {
 
                 </div>
             </div>
-
-
-
-
 
         </Layout>
     )

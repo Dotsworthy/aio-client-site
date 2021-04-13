@@ -17,7 +17,10 @@ const IndexPage = () => {
       <section className="content-box" id="yellow">
 
         <div className="pitch-box">
-          <div className="tag1"><h1 >Education Done. All in One.</h1></div>
+          <div className="tag1">
+            <h1>Education Done.</h1>
+            <h1>All in One.</h1>
+          </div>
           <div className="tag2"><h1>The history of Britain is complex and diverse - and our education system should reflect this.</h1></div>
         </div>
 
