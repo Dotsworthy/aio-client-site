@@ -15,8 +15,8 @@ const ContactUs = () => {
         const error = document.getElementById('error')
 
         const serviceID = 'default_service';
-        const templateID = 'template_qrrr8tp';
-        const userID = 'user_Qbuw599Yamda7QR3LTIuO';
+        const templateID = 'template_9zre86c';
+        const userID = 'user_kZjiOtT1DMzkYvEKUyuPV';
 
         button.value = 'Sending...'
 
