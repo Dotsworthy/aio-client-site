@@ -5,11 +5,11 @@ import downloadFile from "../images/AIO Mission Statement.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfo } from '@fortawesome/free-solid-svg-icons';
 import { StaticImage } from "gatsby-plugin-image";
-import annaMayhew from "../images/anna-mayhew.jpg";
-import zoDaniels from "../images/zo-daniels.jpeg";
-import ginaLorenzetti from "../images/gina-lorenzetti.jpg";
-import nikhatYusaf from "../images/nikhat-yusef.jpeg";
-import henryLampitt from "../images/henry-lampitt.jpeg";
+import annaMayhew from "../images/anna-mayhew.png";
+import zoDaniels from "../images/zo-daniels.png";
+import ginaLorenzetti from "../images/gina-lorenzetti.png";
+import nikhatYusaf from "../images/nikhat-yusaf.png";
+import henryLampitt from "../images/henry-lampitt.png";
 import christinePont from "../images/christine-pont.png";
 import lizzieRiungu from "../images/lizzie-riungu.png";
 
