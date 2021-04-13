@@ -1,5 +1,5 @@
 // media queries
-$bp-mobile: 767px;
+$bp-mobile: 768px;
 $bp-small: 768px; // 768px
 $bp-medium: 1024px; // 1024px
 $bp-large: 1366px; // 1366px
@@ -407,7 +407,7 @@ $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
         margin-left: -300px;
     }
 
-    @media #{$mq-mobile} {
+    @media (max-width: 1024px) {
 
         flex-direction: column;
         margin: 6vh 0;
