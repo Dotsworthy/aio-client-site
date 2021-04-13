@@ -44,7 +44,7 @@ const ContactUs = () => {
                 <div className="paragraph-box box1" id="white">
                     <p>Contact us to learn more about our mission and work, or get involved yourself.</p>
                     <p>enquiries@allinoneeducation.co.uk</p>
-                    <StaticImage src="../images/42401748_m.jpg" alt="contact-us"/>
+                    <StaticImage src="../images/iStock-1091721518.jpg" alt="contact-us"/>
                 </div>
 
                 <div className="paragraph-box box2" id="white">

@@ -22,8 +22,10 @@ const IndexPage = () => {
         </div>
 
         <div className="paragraph-box" id="white">
-          <p>Our mission is to encourage and enhance intersectional learning in UK classrooms, exploring a range of viewpoints on our shared past through the provision of premade, easy to use lesson plans, discussion materials, homework suggestions, and teaching aids for educators of all stages and faculties.</p>
-          <p>Whether you’re covering the Tudors, WW1, Ancient Civilisations, or the 21st century, our lessons consider BIPOC, Female, LGBTQIA+, differently abled, colonial, environmental and other perspectives as a matter of course, enabling you to teach the intersectional realities of British Social Studies more effectively within our nations’ curriculums today.</p>
+          <div className="space-break"></div>
+          <p>Our mission is to enhance the teaching of British History in UK classrooms via intersectional approaches to curriculum topics, to bring greater representation, tangibility, and understanding of our shared past to all of our young learners.</p>
+          <p>Whether you're studying the Romans, the Tudors, WW1, or the 21st Century, our lessons help teachers explore a range of interconnected, intersectional viewpoints via premade, easy to use lesson plans, discussion materials, homework suggestions, and teaching aids for all stages and faculties.</p>
+          <div className="space-break"></div>
         </div>
 
         <div className="link-container">
@@ -56,8 +58,7 @@ const IndexPage = () => {
           <StaticImage className="img" src={"../images/127784687_m.jpg"} alt="support-change" />
           <div className="paragraph-box paragraph-right" id="pink">
             <h1>Support lasting change</h1>
-            <p>Our approach to educaton reform is two-pronged, encompassing both content creation, and reform lobbying of UK governments to include All In One as a recommended teaching aid for university and college PGCE/PDGE courses, so that a greater consistency in inclusive teaching methods can be achieved across schools/educators.</p>
-            
+            <p>Our approach to educaton reform encompasses both content creation and lobbying, We encourage UK governments to include All in One as a recommended teaching aid in PCGE/PGDE courses, so that greater consistencty in inclusive reaching methods can be achieved across schools and educators.</p>
             <div className="link-container">
             <a className="link-box" href="/about-us">Learn more about All in One</a>
             </div>

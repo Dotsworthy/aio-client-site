@@ -17,7 +17,7 @@ const TakeAction = () => {
             <div className="content-box" id="white">
 
                 {/* <div className="paragraph-box" id="grey"> */}
-                <h2>Whether you’re a teacher or organisation with a great idea for a lesson or content, an educator who wants to trial our lessons in their classrooms, or a citizen wanting to see real change in the UK curriculum, here are some ways you can get involved with All in One:</h2>
+                <h2>Whether you’re a teacher or organisation with a great idea for a lesson, an educator who wants to trial our lessons in their classrooms, or a citizen wanting to see real change in the UK curriculum, here are some ways you can get involved with All in One:</h2>
                 {/* </div> */}
 
                 <div className="content-overlay-box">

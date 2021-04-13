@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         <div className="site-content"><main>{children}</main></div>
 
         <footer className="footer">
-          <Link className="logo" to="/">All in One Education</Link>
+          <Link className="link" to="/">All in One Education</Link>
 
           <div className="icons">
             <a className="icon-link" href="https://www.facebook.com/allinoneeducationuk" name="facebook-link">
@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
 
           </div>
 
-          <Link className="logo" to="/contact-us">Contact Us</Link>
+          <Link className="link" to="/contact-us">Contact Us</Link>
 
         </footer>
       </div>
