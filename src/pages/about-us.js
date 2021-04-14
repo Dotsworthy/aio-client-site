@@ -141,7 +141,7 @@ const AboutUs = () => {
                         <h2>Zo Daniels - Vice Chair</h2>
                         <img className="employee-picture" src={zoDaniels} alt="Zo Daniels" id="img-2" />
                         <div className="employee-blurb" id="employee-2">
-                            <p >Zo is a jack of all trades who has worked in various events and marketing roles in education and entertainment charities around London. An intersectional activist, and founding member of social activism group Collective Action For Black Matters, she has a thirst for knowledge and loves creating engaging and inspiring content. As AIO’s vice-chair, she directs strategy and oversees operations in England, and when she’s not working, you’ll probably find her hiding in a cinema somewhere.
+                            <p>Zo holds a (BA) in Public Relations and Advertising, and over the past five years has worked in a variety of marketing and events roles. In 2019 she decided to specialise in education and non-profit work having worked as Marketing Assistant at Institute of Imagination. She has experience leading anti-racism reading groups and creative workshops with organisations such as De La Warr Pavilion. She has a thirst for knowledge, and as All In One Education's vice chair, she directs strategy and campaigns across the UK. Zo believes that intersectional education is absolutely key in achieving equality.
                         </p>
                             <br></br>
                             <p>To contact please email <a href="mailto:enquiries@allinoneeducation.co.uk">enquiries@allinoneeducation.co.uk</a></p>
